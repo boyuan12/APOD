@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>APOD</title>
+		<link href="style.css" rel="stylesheet" type="text/css" />
+		<script src="script.js" defer></script>
+	</head>
+	<body>
+		<h1 class="center-text">NASA's APOD API</h1>
+		<h3 id="date" class="center-text"></h3>
+		<div class="center-text">
+			<input type="date" id="date-input" min="1995-06-16"> 
+			<button type="button" id="button" onclick="customApod();">Check APOD</button>
+		</div>
+		<br>
+		<div id="media"></div>
+		<b id="title"></b>
+		<i id="author"></i>
+		<p id="explanation"></p>
+	</body>
+</html>
